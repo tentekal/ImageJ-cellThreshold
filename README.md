@@ -1,1 +1,1 @@
-# ImageJ-CellCounter
+# ImageJ-cellThreshold
