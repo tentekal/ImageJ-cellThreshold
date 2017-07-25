@@ -93,17 +93,17 @@
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/imagej/example-legacy-plugin/issues</url>
+		<url></url>
 	</issueManagement>
 	<ciManagement>
 		<system>None</system>
 	</ciManagement>
 
 	<properties>
-		<package-name>com.mycompany.imagej</package-name>
-		<main-class>com.mycompany.imagej.Process_Pixels</main-class>
-		<license.licenseName>bsd_2</license.licenseName>
-		<license.copyrightOwners>My Company, Inc.</license.copyrightOwners>
+		<package-name>cellThreshold</package-name>
+		<main-class>cellThreshold</main-class>
+		<license.licenseName>GNUv3</license.licenseName>
+		<license.copyrightOwners></license.copyrightOwners>
 	</properties>
 
 	<dependencies>
