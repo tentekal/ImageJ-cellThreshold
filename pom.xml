@@ -86,10 +86,10 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/imagej/example-legacy-plugin</connection>
-		<developerConnection>scm:git:git@github.com:imagej/example-legacy-plugin</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/imagej/example-legacy-plugin</url>
+		<connection></connection>
+		<developerConnection></developerConnection>
+		<tag></tag>
+		<url></url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
