@@ -3,20 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cellThreshold;
+package com.mycompany.imagej;
 
-/**
- *
- * @author tanner
- */
-public class cellThreshold implements PlugIn {
-    @Override;
-    public void run(String arg) {
-        IJ.showMessage("This is the plugin.");
-    }
-    
-    public static void main(final String... args) {
-        new ij.ImageJ());
-        new cellThreshold().run(**);
-    }
+import java.net.URL;
+
+import net.imagej.ImageJ;
+
+
+/** Intro to API */
+public class cellThreshold {
+	
+	public static void main(final String...strings) throws Exception {
+		
+		final ij.ImageJ ij = new ImageJ();
+		
+		ij.platform()open(new URL("http://imagej.net/"));
+	}
 }

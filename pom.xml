@@ -103,13 +103,21 @@
 		<package-name>cellThreshold</package-name>
 		<main-class>cellThreshold</main-class>
 		<license.licenseName>GNUv3</license.licenseName>
-		<license.copyrightOwners></license.copyrightOwners>
+		<license.copyrightOwners>N/A</license.copyrightOwners>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>ij</artifactId>
+			<version>1.45b</version>
 		</dependency>
 	</dependencies>
+	<repositories>
+  <!-- NB: for project parent -->
+  <repository>
+    <id>imagej.public</id>
+    <url>http://maven.imagej.net/content/groups/public</url>
+  </repository>
+</repositories>
 </project>
