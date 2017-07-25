@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>14.0.0</version>
+		<version>16.1.0</version>
 		<relativePath />
 	</parent>
 
@@ -86,10 +86,10 @@
 	</mailingLists>
 
 	<scm>
-		<connection></connection>
-		<developerConnection></developerConnection>
+		<developerConnection>scm:git:git@github.com:tentekal/ImageJ-cellThreshold</developerConnection>
 		<tag></tag>
-		<url></url>
+		<url>scm:git:git://github.com/tentekal/ImageJ-cellThreshold</url>
+		<connection>https://github.com/tentekal/ImageJ-cellThreshold</connection>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
@@ -102,7 +102,7 @@
 	<properties>
 		<package-name>cellThreshold</package-name>
 		<main-class>cellThreshold</main-class>
-		<license.licenseName>GNUv3</license.licenseName>
+		<license.licenseName>GPLv3</license.licenseName>
 		<license.copyrightOwners>N/A</license.copyrightOwners>
 	</properties>
 
@@ -110,7 +110,16 @@
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>ij</artifactId>
-			<version>1.45b</version>
+		</dependency>
+			
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-ij</artifactId>
 		</dependency>
 	</dependencies>
 	<repositories>
